@@ -1,0 +1,32 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+body {
+    background: #193549;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+h1, h2 {
+    color: var(--base);
+}
+.controls {
+    margin-bottom: 100px;
+}
+#foto {
+    width: 400px;
+    height: 200px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+input {
+    width: 100px;
+}
+footer {
+    margin-top: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variavel</title>
+    <meta name="author" content="Hildegard Viana">
+    <meta name="description" content="Controle o CSS">
+    <meta name="keywords" content="CSS, controle, variavel">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="100days.png" alt="logomarca">
+        <h1>CSS variável</h1>
+    </header>
+
+    <main>
+        <h2>Atualize os valores de CSS</h2>
+
+        <div class="controls">
+            <label for="spacing">Spacing</label>
+            <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+            <label for="blur">Blur</label>
+            <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+            <label for="base">Base color</label>
+            <input id="base" type="color" name="base" value="#ffc600">
+        </div>
+
+        <img id="foto" src="tarde.jpg" alt="foto">
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2021 | Criado por: <span>Hildegard Viana</span></p>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
